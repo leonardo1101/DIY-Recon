@@ -53,4 +53,3 @@ def run_asn_enum(org, domains):
 			outputs = tool.run_cmd_domain(domain)
 			process_files(outputs)
 	write_asn_enum_result(result_file)
-

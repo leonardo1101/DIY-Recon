@@ -19,4 +19,3 @@ def get_asn_enum_output():
 		data = json.load(config_file)
 		return data["asn_enumeration"]["output"]
 	return ""
-

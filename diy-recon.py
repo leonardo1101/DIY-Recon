@@ -14,6 +14,5 @@ def main():
     print("[*] Start running ASN enumeration.")
     run_asn_enum(org, scope_domains)
 
-
 if __name__ == '__main__':
     main()
