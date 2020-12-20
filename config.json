@@ -1,0 +1,16 @@
+{
+	"asn_enumeration" : {
+		"tools" : [
+			{
+				"name" : "Metabigor",
+			 	"path" : "asn_enum/metabigor",
+			 	"verbose" : false,
+			 	"cmd_org" : "echo $org | $tool net --org -o result",
+			 	"cmd_domain" : "echo $domain | $tool net --domain -o result",
+			 	"output_files" : ["result"],
+			 	"output_path" : ""
+			}
+		],
+		"output" : "asn_result.json"
+	}
+}
